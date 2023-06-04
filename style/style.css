@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+    width: 100%;
+}
+
+body {
+    background: #E5E5E5;
+
+}
+
+/* Header */
+
+.nav {
+    background: #322E41;
+}
+
+.nav__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link a {
+    padding: 23px;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.nav__link a:hover {
+    color: #D47300;
+    background: white;
+}
+
+.header__content {
+    height: 700px;
+    background-image: url('../img/bg1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.header__content_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+
+}
+
+.header__content_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+
+
+/* Main  */
+
+
+.content__wrapper {
+    margin-top: -37px;
+    margin-bottom: 30px;
+}
+
+/* All - Cards */
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* Main - card  */
+
+.main__card {
+    background: white;
+    width: 540px;
+    height: 467px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.main__card_img {
+    background-image: url('../img/card1.png');
+    width: 510px;
+    height: 263px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main__card_text {
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+
+}
+
+.main__card_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+
+}
+
+.main__card_descr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9B9B;
+
+}
+
+/* Cards - Box  */
+
+.card {
+    width: 255px;
+    height: 219px;
+    background: white;
+}
+
+
+.card__img_1 {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #D47300;
+    border-radius: 50%;
+    background-image: url('../img/air-max.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+.card__img_2 {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #D47300;
+    border-radius: 50%;
+    background-image: url('../img/tanjun.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.card__img_3 {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #D47300;
+    border-radius: 50%;
+    background-image: url('../img/air-force.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.card__img_4 {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #D47300;
+    border-radius: 50%;
+    background-image: url('../img/moon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.card__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 6px;
+    text-align: center;
+    color: #2C2A2A;
+}
+
+.card__descr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #9B9B9B;
+    height: 64px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.cards__box {
+    width: 540px;
+    height: 467px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+
+/* Footer  */
+
+
+.footer__nav {
+    background: #322E41;
+    height: 258px;
+}
+
+/* Form  */
+
+.nav__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    padding: 40px 0;
+}
+
+
+/* Input  */
+
+.input__name {
+    outline: none;
+    border-radius: 6px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+}
+
+.input__message {
+    outline: none;
+    border-radius: 6px;
+    padding-top: 9px;
+    padding-bottom: 58px;
+    padding-left: 10px;
+}
+
+/* Form - btn  */
+
+
+.form__btn {
+    background: #544294;
+    padding: 9px 150px;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* Navigation  */
+
+.nav__content {
+    display: flex;
+    gap: 164px;
+    align-items: center;
+}
+
+/* Style menu  */
+
+.nav__link_footer a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.nav__link_footer a:hover {
+    color: #D47300;
+}
+
+/* Box Navigation  */
+
+.nav__wrapper {
+    display: flex;
+    width: 235px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav__items_1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.nav__items_2 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+/* Social  */
+
+.nav__social {
+    display: flex;
+    width: 196px;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+
+}
